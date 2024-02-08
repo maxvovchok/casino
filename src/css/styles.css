@@ -1,0 +1,48 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slotsList {
+  width: 337px;
+  height: 237px;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 23px;
+  background-color: #2f2f2f;
+}
+
+.slotItem {
+  width: 79px;
+  height: 237px;
+
+  border-radius: 3px;
+  background-image: url(https://assets.codepen.io/439000/slotreel.webp);
+  background-position: 0 0;
+  background-repeat: repeat-y;
+}
+
+.startBtn {
+  width: 100px;
+  height: 25px;
+}
